@@ -3,7 +3,10 @@
     "description": "Pacote PHP para integração via API com MelhorEnvio, plataforma omnichannel para envios no Brasil.",
     "keywords": [
         "alvarogomides",
-        "php-melhorenvio"
+        "php-melhorenvio",
+        "melhorenvio",
+        "brazil",
+        "shipping"
     ],
     "homepage": "https://github.com/alvarogomides/php-melhorenvio",
     "license": "GPL-2.0-or-later",
@@ -16,19 +19,20 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.2.5",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "AlvaroGomides\\PhpMelhorenvio\\": "src"
+            "AlvaroGomides\\MelhorEnvio\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AlvaroGomides\\PhpMelhorenvio\\Tests\\": "tests"
+            "AlvaroGomides\\MelhorEnvio\\Tests\\": "tests"
         }
     },
     "scripts": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AlvaroGomides\PhpMelhorenvio\Tests;
+namespace AlvaroGomides\Melhorenvio\Tests;
 
 use PHPUnit\Framework\TestCase;
 
